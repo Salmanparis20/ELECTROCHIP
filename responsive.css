@@ -1,0 +1,198 @@
+.checkbtn {
+    color: black;
+    font-size: 25px;
+    padding: 4px px;
+    display: none;
+    border-radius: 5px;
+    /* border: 2px solid blue; */
+    margin-right: 2rem;
+    margin-top: 3rem;
+}
+
+#check {
+    display: none;
+}
+@media(max-width:576px){
+        .navBar {
+            width: 100%;
+        }
+    
+        .navBar .logo  {
+            position: none;
+            left: 10px;
+        }
+    
+        .navBar .navLinks .links  {
+            /* height: 100%; */
+            display: none;
+            width: 100%;
+            background-color: rgb(17, 14, 14);
+            position: absolute;
+            top: 75px;
+            left: 0px;
+            flex-direction: column;
+            line-height: 3rem;
+        }
+        .navBar .navLinks .links a:hover{
+            color:#0094b9 ;
+        }
+        .checkbtn{
+            display: block;
+        }
+        #check:checked~.navLinks .links{
+            display: flex;
+        }
+        .heroSection{
+            flex-direction: column;
+        }
+        .heroSection .left{
+            height: 50vh;
+            margin-left: 0px;
+            margin-top: 10px;
+        }
+        .heroSection .left h1{
+            width: 90%;
+            text-align: center;
+            margin-left: 20px;
+        }
+        .heroSection .left p{
+            width: 90%;
+            text-align: center;
+            margin-left: 20px;
+        }
+        .heroSection .left button{
+            margin-left: 9.5rem;
+        }
+        .heroSection .right img {
+            position: none;
+            width: 80%;
+            height: 80%;
+            border-radius: 20px;
+            right: 0;
+            margin-left: 3rem;
+        }
+        .aboutContainer .aboutSection{
+            flex-direction: column;
+            width: 100%;
+            /* background-color: aqua; */
+        }
+        .aboutContainer .aboutSection .left{
+            position: none;
+            left: 0;
+        }
+        .aboutContainer .aboutSection .left h1{
+            width: 100%;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+        .aboutContainer .aboutSection .left p {
+            width: 90%;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        .aboutContainer .aboutSection .left button{
+            margin-top: 30px;
+            margin-left: 8rem;
+        }
+        .aboutContainer .aboutSection .right .image1{
+            position: none;
+            border-radius: 20px;
+            border: 6px solid #4b208c;
+            top: 30px;
+            right: 0px;
+        }
+        .aboutContainer .aboutSection .right .image2{
+            position: none;
+            width: 100%;
+            border-radius: 20px;
+            border: 6px solid #4b208c;
+            margin-top: 4rem;
+            margin-bottom: 40px;
+        }
+        .cardContainer2{
+            width: 100%;
+            /* background-color: aqua; */
+            /* gap: 2rem; */
+        }
+        .cardContainer2 .card2{
+            width: 90%;
+            margin-left: 25px;
+        }
+        .cardContainer3{
+            width: 100%;
+            /* background-color: aqua; */
+        }
+         .cardContainer3 .card3 {
+            height: 80vh;
+            width: 100%;
+            gap: 2rem;
+            border-radius: 20px;
+            margin-top: 20px;
+        }
+        .cardHeader3 img{
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        }
+        .contactContainer{
+            width: 100%;
+            /* background-color: aqua; */
+        }
+        .contactContainer h1{
+            margin-left: 8rem;
+        }
+        .formContainer form{
+            margin-left: 3rem;
+        }
+        form input{
+            width: 25rem;
+        }
+        form textarea{
+            width: 25rem;
+        }
+        .contactContainer .contactSection{
+            display: flex;
+            flex-direction: column;
+        }
+        .formContainer button{
+            margin-left: 3rem;
+        }
+        .contactSection .mapContainer{
+            margin-top: 20px;
+            margin-left:3rem;
+            width: 90%;
+        }
+        .contactSection .mapContainer iframe{
+            width: 100%;
+            height: 100%;
+            margin-top: 10px;
+        }
+        .footerContainer{
+            height: 50vh;
+        }
+        .footerContainer .footerlinks .links{
+            flex-direction: column;
+        }
+        .footerContainer .footerlinks .links li{
+            margin-top: 20px;
+            margin-left: 3rem;
+        }
+        .footerContainer .subscribe{
+            flex-direction: column;
+        }
+        .subform form input {
+            margin-left: 3rem;
+        }
+        .subform form button{
+            padding: 9px 30px;
+            margin-left: 3rem;
+            margin-top: 10px;
+        }
+        .footerContainer .footericon .icon i{
+            margin-left: 2rem;
+        }
+        .footerContainer .copyright{
+            /* height: 5vh; */
+            /* background-color: aqua; */
+            margin-top: 10px;
+        }
+    }
